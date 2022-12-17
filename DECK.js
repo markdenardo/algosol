@@ -5,7 +5,7 @@ const f=(()=>a.fft[0])
 const pi=(Math.random(Math.PI))
 const t=(()=>time)
 const osc1=(()=>osc(1,1,1))
-//shape(f).invert().rotate(t,1).modulate(o0).modulateScrollX(osc1()).kaleid().out(o0)
+shape(3).rotate(t,1).modulate(o0).modulateScrollX(osc1()).out(o0)
 
 /*const sh=(s,o,m)=>(shape(s).repeat(t,1).kaleid(t).scale(pi).rotate(t,0.1).out(o))
 sh(pi,o0,o1)
@@ -57,17 +57,6 @@ src(o0).blend(o3).out(o2)
 render(o2)
 */
 
-//lava
-/*
-s0.initVideo("https://media0.giphy.com/media/CbChHE5Vy5gr3KxHi9/giphy.mp4")
-s1.initVideo("https://media4.giphy.com/media/vMhAsatslElJw41Qcu/giphy.mp4")
-s2.initVideo("https://media0.giphy.com/media/yhylFVag9gRAx9mia6/giphy.mp4")
-src(s0)
-  .blend(s1,()=>-mouse.x).add(s2,0.5)
-  .pixelate(()=>-mouse.x*0.1,()=>-mouse.y*0.1)
-render(o3)
-*/
-
 /*
 // licensed with CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
 // a fractal explorer using rotations
@@ -98,7 +87,7 @@ setFunction({
     `
 })
 
-const BRANCHES = 2
+const BRANCHES = 6.66
 const MASK = shape(3,.9,0) // an inverted triangle
 //
 input = ()=> src(o0).mask(MASK)
@@ -119,6 +108,5 @@ feedbacks(BRANCHES)
   	.saturate(1.4)
 	.blend(o0,.5)
 	.rotate(()=>time,1)
-	//.blend(o3)
     .out()
-    */
+ */
