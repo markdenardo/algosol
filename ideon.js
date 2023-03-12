@@ -1,4 +1,5 @@
 //ideon
+// by MDN @markdenardo
 const f = () => a.fft[0]
 s0.initVideo("https://media1.giphy.com/media/eUX0LVWUUbtLaAI5HT/giphy.mp4")
 s1.initVideo("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmZkNmFmMWJlZTM1NjVmODc5NjhlMGIxMGI3N2NhMjQ0NmRmNTc2NyZjdD1n/DkleR7V8RMtrim0cH5/giphy.mp4")
