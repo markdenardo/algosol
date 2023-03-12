@@ -10,3 +10,11 @@ src(s0)
 	.add(s2, f)
 	.out(o0)
 render(o0)
+
+// uncomment 4 🌌
+// src(s2)
+// 	.pixelate(50, 50)
+// 	.add(src(s1)
+// 		.modulateScrollX(osc(0.1, 0.1, 0.1)))
+// 	.out(o1)
+// render(o1)
